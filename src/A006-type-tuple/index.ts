@@ -1,5 +1,5 @@
 const clientDatas1: [number, string] = [1, 'Pedro'];
-const clientDatas2: [number, string, string] = [1, 'Pedro', 'Souza'];
+const clientDatas2: readonly [number, string, string] = [1, 'Pedro', 'Souza'];
 const clientDatas3: [number, string, string?] = [1, 'Pedro'];
 const clientDatas4: [number, string, ...string[]] = [1, 'Pedro', 'Pedrin', 's'];
 
