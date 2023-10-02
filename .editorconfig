@@ -6,8 +6,4 @@ indent_size = 2
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
-<<<<<<< HEAD
 end_of_line = lf
-=======
-end_of_line = lf
->>>>>>> e7dab51d498b9f8597f8018bb802d56ff2fb5978
