@@ -9,7 +9,7 @@ const objectA: {
 };
 
 objectA.keyA = 'Pedr11nnnn';
-objectA.keyC = 'New Ekyyy';
+objectA.keyC = 'New Ekyyyyyy';
 objectA.keyD = 'New Ekyyssy';
 
 console.log(objectA);
