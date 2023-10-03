@@ -7,7 +7,7 @@ enum Colors {
   ROXO = 'ROXO',
 }
 
-function chooseColor(color: Colors): void {
+export function chooseColor(color: Colors): void {
   console.log(Colors[color]);
 }
 
