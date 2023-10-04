@@ -1,5 +1,3 @@
-import { toUpperCase } from '../A005-type-array';
-
 const y = 10;
 
 const a = 100;
