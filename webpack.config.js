@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/A018-webpack/index.ts',
+  entry: './src/A019-exec/index.ts',
   module: {
     rules: [
       {
