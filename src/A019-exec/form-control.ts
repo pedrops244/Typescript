@@ -12,7 +12,8 @@ form.addEventListener('submit', function (event: Event) {
   checkForEmptyFields(username, email, password, password2);
   checkEmail(email);
   checkPassword(password, password2);
-  if (SendForm(this)) alert('Formulário enviado!');
+  if (SendForm(this)) alert('Formulário enviado');
+  window.location.reload();
 });
 
 function checkPassword(

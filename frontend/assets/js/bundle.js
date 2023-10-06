@@ -27,7 +27,8 @@ form.addEventListener('submit', function (event) {
     checkEmail(email);
     checkPassword(password, password2);
     if (SendForm(this))
-        alert('Formulário enviado!');
+        alert('Formulário enviado');
+    window.location.reload();
 });
 function checkPassword(password, password2) {
     if (password.value !== password2.value) {
