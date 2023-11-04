@@ -23,7 +23,7 @@ export class Produto {
 
 const produto1 = new Produto('Camisa', 29.9);
 const produto2 = new Produto('Caneca', 87);
-const produto3 = new Produto('Pc', 290);
+const produto3 = new Produto('Pc', 291);
 
 const carrinhoDeCompras = new CarrinhoDeCompras();
 carrinhoDeCompras.inserirProduto(produto1, produto3, produto2);
