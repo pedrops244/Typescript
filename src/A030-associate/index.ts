@@ -34,6 +34,7 @@ export class Caneta extends Ferramenta {
     console.log(`${this.nome} está escrevendo...`);
   }
 }
+
 export class MaquinaEscrever extends Ferramenta {
   escrever(): void {
     console.log(`${this.nome} está digitando...`);
