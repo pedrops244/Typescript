@@ -40,6 +40,7 @@ export class VotationApp {
 
 const votation1 = new Votation('Qual sua linguagem de programção favorita?');
 votation1.addVotationOptions({ options: 'Python', numberOfvotes: 0 });
+votation1.addVotationOptions({ options: 'Python', numberOfvotes: 0 });
 votation1.addVotationOptions({ options: 'Javascript', numberOfvotes: 0 });
 votation1.addVotationOptions({ options: 'Ruby on Nails', numberOfvotes: 0 });
 votation1.vote(1);
